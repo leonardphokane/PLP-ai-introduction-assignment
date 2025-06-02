@@ -3,9 +3,9 @@
 
 ## Objective
 
-Create a rule-based chatbot that analyzes cryptocurrency data and provides investment advice based on profitability (e.g., price trends) and sustainability (e.g., energy efficiency, project viability).
+Create a **rule-based chatbot** that analyzes cryptocurrency data and provides investment advice based on **profitability** (e.g., price trends) and **sustainability** (e.g., energy efficiency, project viability).
 
-# What You’ll Learn
+## What You’ll Learn
 
 ✅ Basics of AI-driven decision-making.
 ✅ How to design conversational logic.
@@ -13,20 +13,20 @@ Create a rule-based chatbot that analyzes cryptocurrency data and provides inv
 
 # Tools & Resources
 
-Language: Python (beginner-friendly).
+**Language**: Python (beginner-friendly).
 
-Libraries: Use if-else logic or ChatterBot (optional) for conversation flow.
+**Libraries**: Use if-else logic or ChatterBot (optional) for conversation flow.
 
-Data: Predefined crypto datasets (provided below).
+**Data**: Predefined crypto datasets (provided below).
 
-Platform: Code in Google Colab, Jupyter Notebook, or any IDE.
-1. Design the Chatbot’s Personality
+**Platform**: Code in Google Colab, Jupyter Notebook, or any IDE.
+### 1. Design the Chatbot’s Personality
 
-Name your bot (e.g., CryptoBuddy).
+Name your bot (e.g., **CryptoBuddy**).
 
 Define its tone: Friendly, professional, or meme-loving? (e.g., “Hey there! Let’s find you a green and growing crypto!”).
 
-2. Predefined Crypto Data
+### 2. Predefined Crypto Data
 
 Use this sample dataset (or create your own):
 
@@ -52,7 +52,7 @@ crypto_db = {
         "sustainability_score": 8/10  
     }  
 }  
-3. Chatbot Logic
+### 3. Chatbot Logic
 
 User Inputs: Ask questions like:
 
@@ -70,13 +70,13 @@ python
 if "sustainable" in user_query:  
     recommend = max(crypto_db, key=lambda x: crypto_db[x]["sustainability_score"])  
     print(f"Invest in {recommend}! 🌱 It’s eco-friendly and has long-term potential!")  
-4. Add Advice Rules
+### 4. Add Advice Rules
 
 Profitability: Prioritize coins with price_trend = "rising" and market_cap = "high".
 
 Sustainability: Prioritize coins with energy_use = "low" and sustainability_score > 7/10.
 
-5. Test Your Bot
+### 5. Test Your Bot
 
 Sample conversation:
 
