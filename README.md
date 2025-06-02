@@ -8,7 +8,9 @@ Create a **rule-based chatbot** that analyzes cryptocurrency data and provides
 ## What You’ll Learn
 
 ✅ Basics of AI-driven decision-making.
+
 ✅ How to design conversational logic.
+
 ✅ Simple data analysis for crypto trends.
 
 # Tools & Resources
@@ -54,17 +56,17 @@ crypto_db = {
 }  
 ### 3. Chatbot Logic
 
-User Inputs: Ask questions like:
+- **User Inputs**: Ask questions like:
 
-“Which crypto is trending up?”
+- "Which crypto is trending up?"
 
-“What’s the most sustainable coin?”
+- "What’s the most sustainable coin?"
 
-Bot Responses:
+- **Bot Responses**:
 
-Use if-else logic to match queries to data.
+  Use if-else logic to match queries to data.
 
-Example:
+- Example:
 
 python
 if "sustainable" in user_query:  
@@ -72,13 +74,13 @@ if "sustainable" in user_query:
     print(f"Invest in {recommend}! 🌱 It’s eco-friendly and has long-term potential!")  
 ### 4. Add Advice Rules
 
-Profitability: Prioritize coins with price_trend = "rising" and market_cap = "high".
+**Profitability**: Prioritize coins with price_trend = "rising" and market_cap = "high".
 
-Sustainability: Prioritize coins with energy_use = "low" and sustainability_score > 7/10.
+**Sustainability**: Prioritize coins with energy_use = "low" and sustainability_score > 7/10.
 
 ### 5. Test Your Bot
 
-Sample conversation:
+- Sample conversation:
 
 
 You: Which crypto should I buy for long-term growth?  
